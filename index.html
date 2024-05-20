@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <style>
+        body{
+            background-color: rgb(31, 168, 223);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1 style="color: rgb(30, 5, 175);">Formulario de vuelo</h1>
+    <img src="avion.jpeg" style="width: 400px;">
+    <form action="">
+    <p>
+    Origen<input list="text">
+    </p>
+    <p>
+        Destino <input list="text">
+    </p> 
+    <datalist id="text">
+        <option value="Medellín"></option> 
+        <option value="Barranquilla"></option>
+        <option value="cali"></option>
+        <option value="Panamá"></option>
+        </option>
+    </datalist>
+    <p>
+        Fecha de Salida <input type="datetime-local">
+    </p>
+    <p>
+        Fecha de Regreso <input type="datetime-local">
+    </p>
+    <p>
+        Número de pasajeros <input type="number">
+    </p>
+    <p>
+        Adultos <input type="number">
+    </p>
+    <p>
+        Niños <input type="number">
+    </p>
+    <p>
+        Mascotas <input type="number">
+    </p>
+    <button type="submit">Reservar</button>
+
+
+
+    </form>
+</body>
+</html>
